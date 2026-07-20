@@ -34,3 +34,8 @@
 - git commit -m "your commit here"
 - git branch
 - git push origin branchName
+
+
+# Branch
+- git checkout -b branchName(create and switch branch)
+- git checkout branchName
