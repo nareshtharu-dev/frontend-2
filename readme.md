@@ -12,3 +12,8 @@
 - git add filename
 - git commit -m "add message here"
 - git push origin main
+
+
+## log
+- git log
+- git log --oneline

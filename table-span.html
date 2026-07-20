@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table Span</title>
+  </head>
+  <body>
+    <table border="1" cellspacing="0" cellpadding="20">
+      <caption>
+        A Test table with merged cells
+      </caption>
+      <thead>
+        <!-- first row -->
+        <tr>
+          <th rowspan="2"></th>
+          <th colspan="2">Average</th>
+          <th rowspan="2">Red Eyes</th>
+        </tr>
+        <!-- second row -->
+        <tr>
+          <th>Height</th>
+          <th>Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Males</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Females</th>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
