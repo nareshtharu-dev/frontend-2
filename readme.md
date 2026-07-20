@@ -37,5 +37,21 @@
 
 
 # Branch
-- git checkout -b branchName(create and switch branch)
-- git checkout branchName
+1. git checkout -b branchName(create and switch branch)
+2. git checkout branchName
+or
+1. git switch -c branchName(create an switch branch)
+2. git switch branchName
+
+## To check branch
+1. git branch (for local)
+2. git branch -r (remote branch)
+
+## Branch Delete
+1. To Delete local branch
+- git branch -D branchName
+2. To delete remote branch
+- git push origin --delete branchName
+
+# pull ( to retrieve code from remote (github to local))
+- git pull origin branchName 
