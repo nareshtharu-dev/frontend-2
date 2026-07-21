@@ -53,5 +53,6 @@ or
 2. To delete remote branch
 - git push origin --delete branchName
 
-# pull ( to retrieve code from remote (github to local))
-- git pull origin branchName 
+# pull ( to retrieve code from remote fdfdfdsafafasfdsf)
+- git pull origin abc
+
