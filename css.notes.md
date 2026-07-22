@@ -21,3 +21,8 @@
      - color: hsl(0, 25%, 20%)//hue, saturation, lighting
 
 # CSS Unit
+- px 
+- em
+- rem
+- %
+- vw and vh
