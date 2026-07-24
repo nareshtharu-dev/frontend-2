@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border radius</title>
+    <style>
+        .w-200{
+            width:200px;
+            height:200px;
+        }
+        .box{
+            /* width:200px;
+            height:200px; */
+            background-color: red;
+            border:3px solid green;
+            /* border radius */
+            /* top-left top-right bottom-right  bottom-left*/
+            /* border-radius: 20px 40px 0px 30px; */
+            border-radius: 20px;
+
+        }
+        .box1{
+            /* width:200px;
+            height:200px; */
+            background:green;
+            border:5px solid red;
+            border-radius: 0px 50px;
+        }
+        .box2{
+            /* width:200px;
+            height:200px; */
+            background:black;
+            border:5px solid blue;
+            border-radius: 50px 0px;
+        }
+        .box3{
+            /* width:200px;
+            height:200px; */
+            background:lightgreen;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box w-200"></div>
+    <div class="box1 w-200"></div>
+    <div class="box2 w-200"></div>
+    <div class="box3 w-200"></div>
+    
+</body>
+</html>
