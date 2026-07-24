@@ -26,3 +26,9 @@
 - rem
 - %
 - vw and vh
+
+# box model
+- content
+- padding (inner spacing)
+- border 
+- margin
